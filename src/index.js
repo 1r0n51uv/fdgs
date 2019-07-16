@@ -1,13 +1,26 @@
-import React from 'react';
+import React, { setGlobal } from 'reactn';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import firebase from 'firebase/app';
 import 'firebase/firestore';
+import registerServiceWorker from './registerServiceWorker';
 import { FirestoreProvider } from 'react-firestore';
-import * as serviceWorker from './serviceWorker';
 require('dotenv').config();
 
+const root = document.getElementById('root');
+
+setGlobal({
+    auth: false,
+    user: {
+        email: '',
+        firstName: '',
+        lastName: '',
+        profilePicURL: '',
+        provider: '',
+        token: ''
+    }
+});
 
 const config = {
     apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
@@ -15,18 +28,17 @@ const config = {
     databaseURL: process.env.REACT_APP_FIREBASE_DB_URL,
     projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
     storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: process.env.REACT_APP_FIREBASE_MSG_SND_ID
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MSG_SND_ID,
 };
 
-
 firebase.initializeApp(config);
+firebase.firestore().settings({timestampsInSnapshots: true});
 
 
-ReactDOM.render(<FirestoreProvider firebase={firebase}>
-    <App />
-</FirestoreProvider>, document.getElementById('root'));
+ReactDOM.render(
+    <FirestoreProvider firebase={firebase}>
+        <App />
+</FirestoreProvider>, root);
+registerServiceWorker();
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+
