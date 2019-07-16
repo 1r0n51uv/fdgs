@@ -20,7 +20,7 @@
     global.bootstrapSwitch = mod.exports;
   }
 })(this, function(_jquery) {
-  'use strict';
+  
 
   var _jquery2 = _interopRequireDefault(_jquery);
 

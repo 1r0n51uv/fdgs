@@ -34,7 +34,7 @@
 /*global jQuery:false */
 /*global moment:false */
 (function(factory) {
-  'use strict';
+  
   if (typeof define === 'function' && define.amd) {
     // AMD is used - Register as an anonymous module.
     define(['jquery', 'moment'], factory);
@@ -51,7 +51,7 @@
     factory(jQuery, moment);
   }
 }(function($, moment) {
-  'use strict';
+  
   if (!moment) {
     throw new Error('bootstrap-datetimepicker requires Moment.js to be loaded first');
   }
