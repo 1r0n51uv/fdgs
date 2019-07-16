@@ -2,6 +2,7 @@
 [![Depfu](https://badges.depfu.com/badges/ee4513bce12788b66d6f256238032fd9/overview.svg)](https://depfu.com/github/1r0n51uv/fdgs?project_id=8466)
 [![CodeFactor](https://www.codefactor.io/repository/github/1r0n51uv/fdgs/badge)](https://www.codefactor.io/repository/github/1r0n51uv/fdgs)
 <img src="https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=lodash.template&package-manager=npm_and_yarn&previous-version=4.4.0&new-version=4.5.0">
+[![Netlify Status](https://api.netlify.com/api/v1/badges/38ad5119-9cb3-433e-83fa-5c633c9a611f/deploy-status)](https://app.netlify.com/sites/xenodochial-pare-8a021a/deploys)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
