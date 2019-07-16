@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/1r0n51uv/fdgs.svg?branch=master)](https://travis-ci.org/1r0n51uv/fdgs)
+[![codecov](https://codecov.io/gh/1r0n51uv/fdgs/branch/master/graph/badge.svg)](https://codecov.io/gh/1r0n51uv/fdgs)
+[![Depfu](https://badges.depfu.com/badges/ee4513bce12788b66d6f256238032fd9/overview.svg)](https://depfu.com/github/1r0n51uv/fdgs?project_id=8466)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
