@@ -223,7 +223,7 @@
         }
 
         .navbar-nav li{
-          padding: 0px;
+          padding: 0;
         }
       }
 
@@ -299,8 +299,8 @@
           -webkit-box-shadow: none;
           box-shadow: none;
           width: auto;
-          margin: 0px 0.7rem;
-          margin-top: 0px;
+          margin: 0 0.7rem;
+          margin-top: 0;
 
           &:before{
               display: none;
@@ -341,7 +341,7 @@
           }
 
           & + .navbar-toggler-bar.navbar-kebab{
-              margin-top: 0px;
+              margin-top: 0;
           }
 
           &.bar2{
