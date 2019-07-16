@@ -19,36 +19,36 @@
 
 @keyframes floating-lg {
     0% {
-        transform: translateY(0px)
+        transform: translateY(0)
     }
     50% {
         transform: translateY(15px)
     }
     100% {
-        transform: translateY(0px)
+        transform: translateY(0)
     }
 }
 
 @keyframes floating {
     0% {
-        transform: translateY(0px)
+        transform: translateY(0)
     }
     50% {
         transform: translateY(10px)
     }
     100% {
-        transform: translateY(0px)
+        transform: translateY(0)
     }
 }
 
 @keyframes floating-sm {
     0% {
-        transform: translateY(0px)
+        transform: translateY(0)
     }
     50% {
         transform: translateY(5px)
     }
     100% {
-        transform: translateY(0px)
+        transform: translateY(0)
     }
 }

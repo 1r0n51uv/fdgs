@@ -345,10 +345,10 @@ $box-shadow-sm:               0 .125rem .25rem rgba($black, .075);
 $box-shadow:                  0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
 $box-shadow-lg:               2px 2px 6px rgba(0,0,0,.4);
 
-$dropdown-shadow:          1px 2px 3px 0px rgba(0, 0, 0, 0.125);
-$box-shadow-raised:        0px 10px 25px 0px rgba(0, 0, 0, 0.3);
-$box-shadow:               0 1px 20px 0px rgba(0, 0, 0, 0.1);
-$sidebar-box-shadow:       0px 2px 22px 0 rgba(0, 0, 0,.20), 0px 2px 30px 0 rgba(0, 0, 0,.35);
+$dropdown-shadow:          1px 2px 3px 0 rgba(0, 0, 0, 0.125);
+$box-shadow-raised:        0 10px 25px 0 rgba(0, 0, 0, 0.3);
+$box-shadow:               0 1px 20px 0 rgba(0, 0, 0, 0.1);
+$sidebar-box-shadow:       0 2px 22px 0 rgba(0, 0, 0,.20), 0 2px 30px 0 rgba(0, 0, 0,.35);
 
 $component-active-color:        $white !default;
 $component-active-bg:           theme-color("primary") !default;
@@ -818,7 +818,7 @@ $popover-max-width:                 276px !default;
 $popover-border-width:              1px !default;
 $popover-border-color:              rgba($black, .05);
 $popover-border-radius:             $border-radius-lg !default;
-$popover-box-shadow:                0px .5rem 2rem 0px rgba($black, .2);
+$popover-box-shadow:                0 .5rem 2rem 0 rgba($black, .2);
 
 $popover-header-bg:                 $popover-bg !default;
 $popover-header-color:              $headings-color !default;
@@ -933,7 +933,7 @@ $modal-content-bg:               $white !default;
 $modal-content-border-color:     rgba($black, .2);
 $modal-content-border-width:     1px !default;
 $modal-content-border-radius:    $border-radius-sm !default;
-$modal-content-box-shadow-xs:    0px 10px 50px 0px rgba(0, 0, 0, 0.5);
+$modal-content-box-shadow-xs:    0 10px 50px 0 rgba(0, 0, 0, 0.5);
 $modal-content-box-shadow-sm-up: 0 15px 35px rgba(50,50,93,.2), 0 5px 15px rgba(0,0,0,.17);
 
 $modal-backdrop-bg:           $black !default;
@@ -949,7 +949,7 @@ $modal-header-padding:        24px 24px 0 24px !default;
 $progress-height:                   .5rem !default;
 $progress-bg:                       rgba(0, 0, 0, 0.3) !default;
 $progress-border-radius:            $border-radius-xl !default;
-$progress-box-shadow:               0px 0px 0px 3px rgba(0, 0, 0, 0.3) !default;
+$progress-box-shadow:               0 0 0 3px rgba(0, 0, 0, 0.3) !default;
 $progress-bar-color:                $white !default;
 
 // Datepicker
