@@ -16,7 +16,7 @@ const config = {
 
 firebase.initializeApp(config);
 
-it('renders without crashing', () => {
+it('renders without crashing', async () => {
   const div = document.createElement('div');
   ReactDOM.render(
       <FirestoreProvider firebase={firebase}>
